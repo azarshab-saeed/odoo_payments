@@ -28,6 +28,8 @@ alsatpardakht Payment Acquirer
         ],
     },
     'license': 'LGPL-3',
+     'price': 49.99,
+     'currency': 'EUR',
     'installable': True,
     'application': True,
     'post_init_hook': 'create_missing_journal_for_acquirers',
